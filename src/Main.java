@@ -75,7 +75,7 @@ public class Main {
                 JSONArray weatherArray = (JSONArray) jsonResponse.get("weather");
                 JSONObject weather = (JSONObject) weatherArray.get(0);
 
-                System.out.println("City: " + city);
+               System.out.println("City: " + city);
                 System.out.println("Temperature: " + main.get("temp") + "°C");
                 System.out.println("Weather: " + weather.get("description"));
 
